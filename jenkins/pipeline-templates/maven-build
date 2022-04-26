@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                withMaven(maven : 'maven') {
+                https://github.com/jay2029/DevOpsClassCodes.git
                     sh 'mvn clean compile'
                 }
             }
